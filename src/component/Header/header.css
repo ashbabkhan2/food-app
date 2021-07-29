@@ -1,0 +1,107 @@
+/* Global styling */
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+/* main navbar */
+.navbar{
+  display: flex;
+  /* margin-top: 10px; */
+  z-index: 100;
+  /* background-color: rgba(0,0,0,0.9); */
+  /* background:linear-gradient(45deg,rgba(0,0,0,1),rgba(0,0,0,1)); */
+  box-shadow:1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  /* position: fixed; */
+  width: 100%;
+  padding: 8px 10%;
+}
+
+/* parent element which contain all the things including  */
+.headers{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_960_720.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* hover effect on navbar - brand and navbar list */
+.navbar .brand:hover,.navbar .navbar__lists li a:hover{
+    color: linear-gradient(rgba(0,0,0,1));
+}
+
+/* lists of main navbar */
+.navbar .navbar__lists{
+   display: flex;
+   list-style-type: none;
+   align-items: center;
+}
+/* anchor tag in the li of a main navbar */
+.navbar .navbar__lists li a{
+   text-decoration: none;
+   display: inline-block;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 17px;
+   letter-spacing: 1.1px;
+   font-weight:bold;
+}
+/* Styling the brand name*/
+.navbar .brand{
+    color: skyblue;
+    font-weight:100;
+    text-transform: uppercase;
+    text-shadow: 1px 0px #fff;
+    font-size:30px;
+    letter-spacing: 1.7px;
+}
+/* header text  */
+.header__texts{
+  position:absolute;
+  color: #fff;
+  top: 50%;
+  transform:translate(0,-50%);
+  left: 10%;
+  /* font-size: 40px;
+  font-weight:100; */
+}
+/* header text h4 */
+.header__texts h4{
+    letter-spacing: 3.7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* Buy now and explore link tag in navbar */
+.header__buttons a{
+    display:inline-block;
+    margin: 17px 0px;
+    font-weight: bold;
+    padding: 14px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background:linear-gradient(45deg,#43cea2,#185a9d);
+}
+/* Styling explore button in main navbar */
+.header__buttons .select{
+   margin-left: 20px;
+   background:none;
+   padding: 13px 40px;
+   color: skyblue;
+   border: 1px solid skyblue;
+}
+/* styling hover effect in the explore button in main navbar */
+.header__buttons .select:hover{
+    color: #fff;
+    background:linear-gradient(45deg,#43cea2,#185a9d);
+}
+
+

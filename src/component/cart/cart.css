@@ -1,0 +1,29 @@
+
+/* styling the cart button in the main navbar */
+ .cart{
+    padding: 3px 8px;
+    color: #000;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform:uppercase;
+    border: 1px solid skyblue;
+    margin-left: 50px;
+    font-size:15px;
+    border-radius: 20px;
+ }
+/* styling the hover effect of cart */
+.navbar .navbar__lists li .cart:hover{
+    background:linear-gradient(45deg,#43cea2,#185a9d);
+    color: #fff;
+}
+button{
+    width:130px;
+}
+.no_of_items{
+    margin-left: 5px;
+    background-color: skyblue;
+    padding: 4px 12px;
+    border-radius:12px;
+}
