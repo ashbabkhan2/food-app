@@ -1,0 +1,11 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Meal2{
+    padding: 2% 10%;
+    /* padding-top: 12%; */
+    background:linear-gradient(45deg,#43cea2,#185a9d);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,0.6);
+    /* border-radius:10px; */
+    margin:30px 0;
+}

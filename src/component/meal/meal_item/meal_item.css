@@ -1,0 +1,20 @@
+.meal_items{
+   margin-bottom: 20px;
+   color: #fff;
+   font-weight: bold;
+   position: relative;
+
+}
+.meal_items .title{
+    font-size: 20px;
+}
+.meal_items .description{
+    font-size:17px;
+    margin: 5px 0;
+    font-style:italic;
+}
+.meal_items .price{
+    font-size: 20px;
+    color: #3a1c71;
+}
+

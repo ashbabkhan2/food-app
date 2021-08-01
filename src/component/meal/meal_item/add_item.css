@@ -1,0 +1,20 @@
+.add_items a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    border: 1px solid #3a1c71;
+    /* margin-top: -70px; */
+}
+.add_items a:hover{
+    background-color: #3a1c71;
+}
+.add_items{
+    text-align: end;
+    position: absolute;
+    margin-top: 17px;
+    right:0;
+    top: 0;
+    /* margin-top: -40px; */
+}

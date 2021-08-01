@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
 import Header from './component/Header/Header';
-import Meal from './component/meal/Meal';
+import Food from './component/meal/Food';
 const App = () =>{
   return(
     <React.Fragment>
        <Header />
-       <Meal />
+       <Food />
     </React.Fragment>
   );
 }

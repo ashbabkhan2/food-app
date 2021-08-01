@@ -2,14 +2,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .show__info{
-    position: absolute;
+    /* position: absolute; */
     padding: 20px 30px;
     border-radius:7px;
     text-align: center;
-    background:linear-gradient(45deg,#43cea2,#185a9d);
-    margin: 0px 10%;
+    background:linear-gradient(45deg,#3a1c71,#d76d77,#ffaf7b);
+    width:50%;
+    margin:0 auto;
     margin-top: -100px;
-
     box-shadow:3px 5px 15px 5px rgba(0,0,0,0.5);
 }
 
